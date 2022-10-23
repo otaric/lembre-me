@@ -1,0 +1,52 @@
+.info_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  min-width: 280px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.task_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.info {
+  margin-right: auto;
+}
+
+.date {
+  margin-left: auto;
+  text-align: end;
+  font-size: 14px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.button_checked {
+  margin-bottom: auto;
+}
+
+.button_delete {
+  margin-top: auto;
+}
+
+.incomplete {
+  color: #000;
+}
+
+.complete {
+  color: #aaa;
+}

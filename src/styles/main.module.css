@@ -1,0 +1,45 @@
+.title {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.top {
+  background-color: #fff;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.no_tasks {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+@media screen and (min-width: 425px) {
+  .title,
+  .no_tasks {
+    font-size: 36px;
+  }
+}
